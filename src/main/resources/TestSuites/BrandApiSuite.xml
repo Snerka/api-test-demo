@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Brand API Test Suite">
+    <test name="Brand API Tests">
+        <classes>
+            <class name="com.dhimahi.apitest.BrandApiTests"/>
+        </classes>
+    </test>
+</suite>
