@@ -1,11 +1,13 @@
 package com.dhimahi.apitest;
 
+import io.qameta.allure.testng.AllureTestNg;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
@@ -24,6 +26,7 @@ import static org.hamcrest.Matchers.equalTo;
  * - Test results will validate API functionality.
  */
 
+@Listeners({AllureTestNg.class})
 public class BrandApiTests {
 
     private static final Logger logger = LogManager.getLogger(BrandApiTests.class);
