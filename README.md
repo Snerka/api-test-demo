@@ -8,7 +8,7 @@ Based on API specification at https://api.practicesoftwaretesting.com/api/docume
 * update existing brand
 
 ## Automation framework and language
-* Any of your choice
+* Java, TestNG, Maven, RestAssured, Allure, Docker
 
 ## Bonus points
 * Well designed automation test strategy
