@@ -1,5 +1,3 @@
-# Dhimahi employment opportunity test task for Valentino Kašner
-
 ## Challenge
 
 Based on API specification at https://api.practicesoftwaretesting.com/api/documentation, focus on `/brands` endpoints and write the following automation tests:
