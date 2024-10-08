@@ -8,10 +8,9 @@ public class TestConstants {
     public static final String NEW_BRAND_NAME = "DhiMahi Giga Chad"; // New brand name
     public static final String NEW_BRAND_SLUG = "dhi-mahi-giga-chad"; // New brand slug
     public static final String UPDATED_BRAND_NAME = "Updated Giga Chad"; // Updated brand name
-    public static final String UPDATED_BRAND_SLUG = "updated-giga-chad"; // Updated brand slug
 
     // JSON Body Templates
     public static final String NEW_BRAND_JSON = String.format("{ \"name\": \"%s\", \"slug\": \"%s\" }", NEW_BRAND_NAME, NEW_BRAND_SLUG);
-    public static final String UPDATED_BRAND_JSON = String.format("{ \"name\": \"%s\", \"slug\": \"%s\" }", UPDATED_BRAND_NAME, UPDATED_BRAND_SLUG);
+    public static final String UPDATED_BRAND_JSON = String.format("{ \"name\": \"%s\", \"slug\": \"%s\" }", UPDATED_BRAND_NAME, NEW_BRAND_SLUG);
 }
 
