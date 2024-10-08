@@ -7,9 +7,3 @@ Based on API specification at https://api.practicesoftwaretesting.com/api/docume
 
 ## Automation framework and language
 * Java, TestNG, Maven, RestAssured, Allure, Docker
-
-## Bonus points
-* Well designed automation test strategy
-* Well structured code, following language-specific coding methods
-* Automatically generated test report
-* Usage of Docker
